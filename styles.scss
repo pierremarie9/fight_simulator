@@ -69,6 +69,18 @@
         right: 20%;
     }
 
+    #specialRocky{
+        background-color: red;
+        color: white;
+        border: 1px solid white;
+        padding: 5px;
+        font-family: 'Audiowide', cursive;
+        font-size: 1.3em;
+        position: absolute;
+        bottom: 60%;
+        right: 20%;
+    }
+
     #imgRocky{
         width: 150px;
         height: auto;
@@ -89,6 +101,33 @@
     height: auto;
 }
 
+.jauge{
+    position: absolute;
+    height: 20px;
+    right: 75%;
+    bottom: 20%;
+ 
+}
+
+progress{
+    width: 5em;
+    color: green;
+}
+
+progress::-webkit-progress-bar { 
+    color: green;
+    background-color: green;
+}
+
+progress::-webkit-progress-value {
+    background-color: green !important;
+}
+
+progress::-moz-progress-bar {
+    background-color: green !important;
+}
+
+
 #ivan{
     flex: 1;
     padding: 20px;
@@ -104,8 +143,10 @@
     }
 
     #imgIvan{
+        position: relative;
         width: 150px;
         height: auto;
+        top: 40px;
     };
 }
 
