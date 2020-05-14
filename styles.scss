@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(images/startpage.jpg);
+    background-size: cover;
+
+    button{
+        background-color: red;
+        color: white;
+        border: 1px solid white;
+        padding: 5px;
+        font-family: 'Audiowide', cursive;
+        font-size: 1.5em;
+    }
+}
+
+#select{
+    display: none;
+}
+
+#fight{
+    height: 100vh;
+    display: none;
+    background-image: url(images/startpage.jpg);
+    background-size: cover;
+    flex-direction: row;
+}
+
+#perso{
+    display: flex;
+    height: 100%;
+    flex: 2;
+    flex-direction: column;
+}
+
+#rocky{
+    flex: 1;
+    padding: 20px;
+    position: relative;
+
+    #attackRocky{
+        background-color: red;
+        color: white;
+        border: 1px solid white;
+        padding: 5px;
+        font-family: 'Audiowide', cursive;
+        font-size: 1.3em;
+        position: absolute;
+        bottom: 20%;
+        right: 20%;
+    }
+
+    #defendRocky{
+        background-color: red;
+        color: white;
+        border: 1px solid white;
+        padding: 5px;
+        font-family: 'Audiowide', cursive;
+        font-size: 1.3em;
+        position: absolute;
+        bottom: 40%;
+        right: 20%;
+    }
+
+    #imgRocky{
+        width: 150px;
+        height: auto;
+    };
+}
+
+.image{
+    position: absolute;
+    width: 60px;
+    height: auto;
+    right: 75%;
+    bottom: 30%;
+    z-index: 0;
+}
+
+.coeur{
+    width: 100%;
+    height: auto;
+}
+
+#ivan{
+    flex: 1;
+    padding: 20px;
+    position: relative;
+
+    #attackIvan{
+        display: none;
+        background-color: red;
+        color: white;
+        border: 1px solid white;
+        padding: 5px;
+        font-family: 'Audiowide', cursive;
+    }
+
+    #imgIvan{
+        width: 150px;
+        height: auto;
+    };
+}
+
+#msgbox{
+    flex: 1;
+    color: white;
+    overflow-y: scroll;
+    font-family: 'Audiowide', cursive;
+}
+
+.display{
+    display: flex;
+}
+
+.pointsVie{
+    position: absolute;
+    right: 76.2%;
+    bottom: 37%;
+    color: white;
+    font-family: 'Audiowide', cursive;
+    z-index: 2;
+}
+
+.fin{
+    color: white;
+    font-size : 2em;
+    position: absolute;
+    bottom: 50%;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+}

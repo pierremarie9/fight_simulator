@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <title>Fight Simulator</title>
+        <link href="https://fonts.googleapis.com/css2?family=Audiowide&family=Bangers&family=Permanent+Marker&family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id = "start">
+            <button id = "start_button">Start fighting !</button>
+        </div>
+        <div id = "select">
+            <div class = "top">
+                <h1>Select your character</h1>
+            </div>
+            <div class = "page">
+                <div class = "left">
+                    <h2>Rocky Balboa</h2>
+                </div>
+                <div class = "right">
+                    <h2>Ivan Drago</h2>
+                </div>
+            </div>
+        </div>
+        <div id = "fight">
+            <div id= "perso">
+                <div id = "rocky">
+                    <img src="images/rocky.png" alt="rocky png" id="imgRocky">
+                    <button id="attackRocky">Attack!</button>
+                    <button id="defendRocky">Protect!</button>
+                    <div class = "pointsVie" id="vieRocky"></div>
+                    <div class = "image">
+                        <img src="images/heart.png" alt="coeur vie" class="coeur" >
+                    </div>
+                </div>
+                <div id = "ivan">
+                    <img src="images/ivan.png" alt="ivan png" id="imgIvan">
+                    <button id="attackIvan">Attack!</button>
+                    <div class = "pointsVie" id ="vieIvan"></div>
+                    <div class = "image">
+                        <img src="images/heart.png" alt="coeur vie" class="coeur" >
+                    </div>
+                </div>
+            </div>
+            <div id="msgbox"></div>
+        </div>
+        <script src="fight.js"></script>
+    </body>
+</html>
