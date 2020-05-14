@@ -55,9 +55,9 @@ class Star extends Personnage {
 
     coupSpecial(personnage){
         this.jauge = 0;
-        personnage.sante -= 60;
+        personnage.sante -= 80;
         personnage.verifierSante();
-        return this.pseudo + " attaque avec son coup spécial uppercut de l'espace " + personnage.pseudo + " ( 60 degats)";
+        return this.pseudo + " attaque avec son coup spécial uppercut de l'espace " + personnage.pseudo + " ( 80 degats)";
     }
 
     checkJauge(){
@@ -95,9 +95,9 @@ class Rival extends Personnage {
     }
 
     coupSpecial(personnage){
-        personnage.sante -= 60;
+        personnage.sante -= 80;
         personnage.verifierSante();
-        return this.pseudo + " attaque avec son coup spécial: coup de genou dans la mâchoire " + personnage.pseudo + " (60 degats)";
+        return this.pseudo + " attaque avec son coup spécial: coup de genou dans la mâchoire " + personnage.pseudo + " (80 degats)";
     }
 
     jouer(){
